@@ -15,6 +15,7 @@ class SignInFrom extends Component {
                 placeholder="Email"
                 name="email" 
                 component={FormInput}/>
+                <div className="sign-in-form__line"></div>
                 <Field className="sign-in-form__password" 
                 type="password"
                 title="Password"
