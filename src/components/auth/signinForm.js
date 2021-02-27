@@ -7,7 +7,7 @@ import Details from "../details";
 
 import history from "../../history";
 
-class SignInFrom extends Component {
+class SignInForm extends Component {
     render() {
         const { className, handleSubmit } = this.props;
         const links = [
@@ -28,7 +28,7 @@ class SignInFrom extends Component {
             }
         ]
         return (
-            <form onSubmit={handleSubmit} className={`${className} sign-in-form`}>
+            <form onSubmit={handleSubmit} className={`${className} sign-up-form`}>
                 <Field className="sign-in-form__email" 
                 type="email"
                 title="Email"
@@ -54,8 +54,8 @@ class SignInFrom extends Component {
     }
 }
 
-SignInFrom = reduxForm({
+SignInForm = reduxForm({
     form: "SignInForm"
-})(SignInFrom);
+})(SignInForm);
 
-export default SignInFrom;
+export default SignInForm;
