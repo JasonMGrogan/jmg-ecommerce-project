@@ -44,4 +44,9 @@ module.exports = {
       minChunks: Infinity,
     }),
   ],
+
+  node: {
+    fs: "empty"
+  }
 };
+

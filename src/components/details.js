@@ -1,4 +1,3 @@
-import { info } from "node-sass";
 import React, { Component } from "react"; 
 
 class Details extends Component {
