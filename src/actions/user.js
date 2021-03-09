@@ -8,13 +8,91 @@ export function fetchUserPurchases() {
         payload: [
             {
                 _id: 0,
-                title: "purchase 1",
-                amount: 8.02
+                total: 8.02,
+                orderNumber: "A0048248343",
+                orderDate: new Date(),
+                creditCard: "-0000",
+                user: {
+                    name: "Jordan Hudgens",
+                    shippingAddress: "1234 West State Street"
+                }
             },
             {
                 _id: 1,
-                title: "purchase 2",
-                amount: 19.40
+                total: 9.00,
+                orderNumber: "A1248698343",
+                orderDate: new Date(),
+                creditCard: "-0000",
+                user: {
+                    name: "John Hancock",
+                    shippingAddress: "62 North Cedar Street"
+                }
+            },
+            {
+                _id: 2,
+                total: 205.90,
+                orderNumber: "A1143948563",
+                orderDate: new Date(),
+                creditCard: "-0000",
+                user: {
+                    name: "Lars Ulrich",
+                    shippingAddress: "5050 Metallica Rd"
+                }
+            },
+            {
+                _id: 3,
+                total: 69.69,
+                orderNumber: "A0176998369",
+                orderDate: new Date(),
+                creditCard: "-0000",
+                user: {
+                    name: "Ronald Jeremy",
+                    shippingAddress: "65 Dallas Ave"
+                }
+            },
+            {
+                _id: 4,
+                total: 17.80,
+                orderNumber: "A0168388383",
+                orderDate: new Date(),
+                creditCard: "-0000",
+                user: {
+                    name: "James Hetfield",
+                    shippingAddress: "1981 Metallica Ave"
+                }
+            },
+            {
+                _id: 5,
+                total: 23.23,
+                orderNumber: "A10007100863",
+                orderDate: new Date(),
+                creditCard: "-0000",
+                user: {
+                    name: "Michael Jordan",
+                    shippingAddress: "23 Air Street"
+                }
+            },
+            {
+                _id: 6,
+                total: 7.07,
+                orderNumber: "A0248248248",
+                orderDate: new Date(),
+                creditCard: "-0000",
+                user: {
+                    name: "Steve Miller",
+                    shippingAddress: "707 Jetairliner Street"
+                }
+            },
+            {
+                _id: 7,
+                total: 19.85,
+                orderNumber: "A0919851985",
+                orderDate: new Date(),
+                creditCard: "-0000",
+                user: {
+                    name: "Stacey Mom",
+                    shippingAddress: "1985 Going Street"
+                }
             }
         ]
     })
